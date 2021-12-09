@@ -4,6 +4,10 @@ The application uses Psycopg2 Psycopg2 module to connect to PostgreSQL and
 perform SQL queries, database operations. I'm assuming you alrealy have a
 PostgresSQL database configured.
 
+#+begin_src bash
+git clone https://github.com/yanbentes/postpy.git
+#+end_src
+
 You need to install Psycopg2 to use PostgreSQL from Python. This module is
 available on pypi.org.
 
@@ -17,10 +21,6 @@ or if you are using anaconda
 
 #+begin_src bash
 conda install -c anaconda psycopg2
-#+end_src
-
-#+begin_src bash
-git clone https://github.com/yanbentes/postpy.git
 #+end_src
 
 ** Operations
