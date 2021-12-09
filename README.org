@@ -1,0 +1,30 @@
+* Python PostgreSQL Application
+
+The application uses Psycopg2 Psycopg2 module to connect to PostgreSQL and
+perform SQL queries, database operations. I'm assuming you alrealy have a
+PostgresSQL database configured.
+
+You need to install Psycopg2 to use PostgreSQL from Python. This module is
+available on pypi.org.
+
+to install with pip command
+
+#+begin_src bash
+pip install psycopg2
+#+end_src
+
+or if you are using anaconda
+
+#+begin_src bash
+conda install -c anaconda psycopg2
+#+end_src
+
+#+begin_src bash
+git clone https://github.com/yanbentes/postpy.git
+#+end_src
+
+** Operations
+
+The application is able to do CREATE, UPTADE, DELETE operations and fell more.
+It has a simple menu in portuguese that you can choose the operation that you
+want to execute.
