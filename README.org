@@ -25,6 +25,6 @@ git clone https://github.com/yanbentes/postpy.git
 
 ** Operations
 
-The application is able to do CREATE, UPTADE, DELETE operations and fell more.
-It has a simple menu in portuguese that you can choose the operation that you
+The application is able to do CREATE, UPTADE, DELETE and a fell more operations.
+It has a simple menu in written in portuguese that you can choose the operation that you
 want to execute.
