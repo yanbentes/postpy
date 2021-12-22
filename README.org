@@ -25,6 +25,6 @@ conda install -c anaconda psycopg2
 
 ** Operations
 
-The application is able to do CREATE, UPTADE, DELETE and a fell more operations.
+The application is able to do CREATE, UPTADE, DELETE and SELECT operations.
 It has a simple menu in written in portuguese that you can choose the operation that you
 want to execute.
