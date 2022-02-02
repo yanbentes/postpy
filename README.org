@@ -1,6 +1,6 @@
 * Python PostgreSQL Application
 
-The application uses Psycopg2 Psycopg2 module to connect to PostgreSQL and
+The application uses Psycopg2 module to connect to PostgreSQL and
 perform SQL queries, database operations. I'm assuming you alrealy have a
 PostgresSQL database configured.
 
