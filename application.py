@@ -45,7 +45,6 @@ try:
         cursor.execute(sql)
         connection.commit()
         
-
     # atualizar valor
     def updateSQL(id):
         print("Atributos de " + v[id][0] + " sao: " + v[id][1])
@@ -57,7 +56,6 @@ try:
         sql = ''.join(q1) 
         cursor.execute(sql)
         connection.commit()
-
         
     # deletar valores
     def deleteSQL(id): 
@@ -78,8 +76,6 @@ try:
         rows = cursor.fetchall()
         for row in rows:
             print(row)
-
-
 
     # query personalizada
     def selectSQL():
@@ -104,8 +100,7 @@ try:
             print("Erro tente novamente")
             query = int(input())
 
-        if query == 0:
-               
+        if query == 0: 
             break
 
         if query == 1:
